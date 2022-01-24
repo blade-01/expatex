@@ -13,7 +13,7 @@
           <img :src="require(`@/assets/img/${paint.thumbnail}`)" />
           <div class="paint-body">
             <h3>{{ paint.name }}</h3>
-            <p>{{ paint.name }}</p>
+            <p>{{ paint.desc }}</p>
             <div class="flex-button">
               <button class="btn">View Details</button>
               <button class="pri-btn">Buy Now</button>

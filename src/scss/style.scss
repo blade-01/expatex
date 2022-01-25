@@ -1,7 +1,6 @@
 @import "./config.scss";
 @import "./mixin.scss";
 @import "./button.scss";
-@import "./media.scss";
 body {
   font-family: $font;
   -webkit-font-smoothing: antialiased;
@@ -72,4 +71,18 @@ ul {
 .routes {
   margin-top: 78px;
   min-height: calc(100% - 78px);
+}
+
+@media screen and (min-width: 700px) {
+  .hide-on-lg {
+    display: none;
+  }
+  .hide-on-sm {
+    display: block;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1300px !important;
+  }
 }

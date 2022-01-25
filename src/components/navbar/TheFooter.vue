@@ -89,7 +89,7 @@ export default {
 @import "@/scss/style.scss";
 .footer {
   background: $sec-btn;
-  padding: 3rem 0;
+  padding: 3rem 0 !important;
   &-content {
     ul {
       margin: 2rem 0 0;

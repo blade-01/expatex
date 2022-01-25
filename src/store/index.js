@@ -4,7 +4,7 @@ export default createStore({
   state: {
     paints: [
       {
-        id: Math.random().toString(36).substring(7).toUpperCase(),
+        id: "1",
         name: "ExpateX Super Emulsion Paint",
         thumbnail: "paint-01.png",
         full: "paint-02.png",
@@ -60,17 +60,17 @@ export default createStore({
             name: "Health & Safety Precaution",
             content:
               "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
-            src: "illus-02.svg",
+            src: "illus-02.png",
           },
         ],
-        displaimer: {
+        disclaimer: {
           name: "Disclaimer",
           content:
             "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
         },
       },
       {
-        id: Math.random().toString(36).substring(7).toUpperCase(),
+        id: "2",
         name: "ExpateX Textured Paint",
         thumbnail: "paint-01.png",
         full: "paint-02.png",
@@ -126,17 +126,17 @@ export default createStore({
             name: "Health & Safety Precaution",
             content:
               "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
-            src: "illus-02.svg",
+            src: "illus-02.png",
           },
         ],
-        displaimer: {
+        disclaimer: {
           name: "Disclaimer",
           content:
             "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
         },
       },
       {
-        id: Math.random().toString(36).substring(7).toUpperCase(),
+        id: "3",
         name: "ExpateX Satin Paint",
         thumbnail: "paint-01.png",
         full: "paint-02.png",
@@ -192,17 +192,17 @@ export default createStore({
             name: "Health & Safety Precaution",
             content:
               "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
-            src: "illus-02.svg",
+            src: "illus-02.png",
           },
         ],
-        displaimer: {
+        disclaimer: {
           name: "Disclaimer",
           content:
             "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
         },
       },
       {
-        id: Math.random().toString(36).substring(7).toUpperCase(),
+        id: "4",
         name: "ExpateX Matt Paint",
         thumbnail: "paint-01.png",
         full: "paint-02.png",
@@ -258,10 +258,10 @@ export default createStore({
             name: "Health & Safety Precaution",
             content:
               "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
-            src: "illus-02.svg",
+            src: "illus-02.png",
           },
         ],
-        displaimer: {
+        disclaimer: {
           name: "Disclaimer",
           content:
             "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",

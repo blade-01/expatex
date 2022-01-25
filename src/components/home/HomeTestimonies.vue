@@ -172,7 +172,7 @@ export default {
       color: $sec-btn;
       text-decoration: underline;
       margin: 0.5rem 0 0;
-      @include font(20px, 500, 30px, $sec-btn);
+      @include font(16px, 500, 30px, $sec-btn);
     }
   }
 }
@@ -195,6 +195,11 @@ export default {
       }
       p {
         @include font(20px, 400, 30px, $pri-color);
+      }
+    }
+    &-more {
+      button.btn {
+        @include font(18px, 500, 30px, $sec-btn);
       }
     }
   }

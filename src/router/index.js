@@ -25,6 +25,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "contact-us" */ "../views/ContactUs.vue"),
   },
+  {
+    path: "/paint/:id",
+    name: "paint",
+    component: () =>
+      import(/* webpackChunkName: "paint" */ "../views/SinglePaint.vue"),
+    props: true,
+  },
 ];
 
 const router = createRouter({

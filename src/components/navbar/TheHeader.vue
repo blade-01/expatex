@@ -160,6 +160,9 @@ img {
 }
 .flex-nav {
   @include flex(flex, space-between, center, row);
+  ul {
+    display: none;
+  }
 }
 .log-sign {
   @include flex(flex, space-between, center, row);

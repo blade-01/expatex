@@ -15,7 +15,9 @@
             <h3>{{ paint.name }}</h3>
             <p>{{ paint.desc }}</p>
             <div class="flex-button">
-              <button class="btn">View Details</button>
+              <button class="btn" @click="viewPaint(paint.id)">
+                View Details
+              </button>
               <button class="pri-btn">Buy Now</button>
             </div>
           </div>
@@ -33,6 +35,11 @@ export default {
   name: "HomePaints",
   computed: {
     ...mapGetters(["paints"]),
+  },
+  methods: {
+    viewPaint(id) {
+      this.$router.push({ name: "paint", params: { id: id } });
+    },
   },
 };
 </script>
@@ -64,6 +71,7 @@ export default {
       img {
         height: 160px;
         object-fit: cover;
+        transition: all 0.3s ease;
       }
       h3 {
         @include font(14px, 600, 21px, $nav-color);
@@ -76,9 +84,11 @@ export default {
         padding: 1rem;
       }
       .flex-button {
+        margin-top: 0.5rem;
         @include flex(flex, flex-end, center, row);
         button:first-child {
           margin-right: 1rem;
+          padding: 0;
           background: none;
           @include font(11px, 600, 17px, $pri-btn);
         }
@@ -110,7 +120,7 @@ export default {
       color: $sec-btn;
       text-decoration: underline;
       margin: 0.5rem 0 0;
-      @include font(20px, 500, 30px, $sec-btn);
+      @include font(16px, 500, 30px, $sec-btn);
     }
   }
 }
@@ -139,7 +149,20 @@ export default {
       }
     }
     &-grid {
-      @include grid(grid, 4, 1fr, 1rem, 2rem);
+      @include grid(grid, 3, 1fr, 1rem, 1rem);
+    }
+    &-more {
+      button.btn {
+        @include font(16px, 500, 30px, $sec-btn);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .paints {
+    &-grid {
+      @include grid(grid, 4, 1fr, 1rem, 1rem);
     }
   }
 }
@@ -152,6 +175,11 @@ export default {
       }
       p {
         @include font(28px, 400, 44px, $pri-color);
+      }
+    }
+    &-more {
+      button.btn {
+        @include font(18px, 500, 30px, $sec-btn);
       }
     }
   }

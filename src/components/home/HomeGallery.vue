@@ -147,7 +147,7 @@ export default {
       .gall {
         img {
           height: auto;
-          max-width: 800px;
+          max-width: 450px;
         }
       }
     }
@@ -158,12 +158,15 @@ export default {
     text-align: left;
     margin-top: 8rem;
     & .container {
-      @include flex(flex, flex-start, flex-end, column);
+      @include grid(grid, 2, 1fr, 2rem, 2rem);
+    }
+    &-content {
+      margin-left: calc(100% - 486px);
+      position: relative;
+      left: 486px;
     }
     h3 {
       @include font(35px, 700, 50px, $white);
-      width: 450px;
-      margin: 0;
     }
     p {
       @include font(18px, 600, 30px, $white);
@@ -176,12 +179,31 @@ export default {
     img {
       position: absolute;
       bottom: 0px;
-      left: 8%;
+      left: inherit;
       top: 50%;
-      transform: translate(-8%, -50%);
-      width: 500px;
-      height: 550px;
+      transform: translateY(-50%);
+      width: 400px;
+      height: 547px;
       z-index: 10;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery {
+    &-grid {
+      @include grid(grid, 2, 1fr, 4rem, 0);
+      align-items: end;
+      .gall {
+        img {
+          height: auto;
+          max-width: 800px;
+        }
+      }
+    }
+  }
+  .get-expatex {
+    img {
+      width: 486px;
     }
   }
 }
@@ -200,8 +222,6 @@ export default {
   .get-expatex {
     h3 {
       @include font(40px, 700, 55px, $white);
-      width: 500px;
-      margin: 0;
     }
     p {
       @include font(24px, 600, 36px, $white);
@@ -209,14 +229,6 @@ export default {
     }
     button.pri-btn {
       @include font(18px, 500, 27px, $white);
-    }
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .get-expatex {
-    img {
-      left: calc(100% - 1900px);
     }
   }
 }

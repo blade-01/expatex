@@ -24,7 +24,7 @@
         <div class="get-expatex-content">
           <h3>ExpateX for Buildings and Structures</h3>
           <p>Your No. 1 Paint for all buildings and structures</p>
-          <button class="pri-btn">Get Xpatex paint</button>
+          <a href="#paints" class="pri-btn">Get ExpateX Paint</a>
         </div>
         <img src="@/assets/img/get-expatex.png" alt="get_expatex" />
       </div>
@@ -114,7 +114,7 @@ export default {
     @include font(14px, 600, 26px, $white);
     margin: 1rem 0;
   }
-  button.pri-btn {
+  a.pri-btn {
     @include font(20px, 500, 30px, $white);
     padding: 0.8rem 1.5rem;
   }
@@ -172,7 +172,7 @@ export default {
       @include font(18px, 600, 30px, $white);
       margin: 1rem 0;
     }
-    button.pri-btn {
+    a.pri-btn {
       @include font(16px, 500, 27px, $white);
       padding: 0.7rem 3rem;
     }
@@ -227,7 +227,7 @@ export default {
       @include font(24px, 600, 36px, $white);
       margin: 1rem 0;
     }
-    button.pri-btn {
+    a.pri-btn {
       @include font(18px, 500, 27px, $white);
     }
   }

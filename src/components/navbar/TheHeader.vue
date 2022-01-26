@@ -133,7 +133,7 @@ img {
   top: -100%;
   left: 0;
   width: 100%;
-  height: 380px;
+  height: 300px;
   background: $sec-btn;
   transition: all ease 0.25s;
   & ul {
@@ -148,7 +148,7 @@ img {
   & a {
     display: block;
     text-decoration: none;
-    @include font(24px, 500, 39px, $white);
+    @include font(18px, 500, 30px, $white);
     padding: 1rem;
     text-transform: capitalize;
   }

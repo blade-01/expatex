@@ -20,10 +20,10 @@
         </div>
       </div>
       <div class="paint-more">
-        <button class="btn" @click="showMore">{{ text }}</button>
+        <a href="#more" class="btn" @click="showMore">{{ text }}</a>
       </div>
       <transition name="fade">
-        <div class="more" v-if="show">
+        <div class="more" id="more" v-if="show">
           <div class="paint-description">
             <div class="desc" v-for="detail in paint.details" :key="detail">
               <div class="desc-content">
@@ -157,7 +157,7 @@ export default {
       @extend %afterEffect;
       top: 60px;
     }
-    button.btn {
+    a.btn {
       background: none;
       color: $sec-btn;
       text-decoration: underline;
@@ -213,6 +213,10 @@ export default {
   }
 }
 
+.more {
+  padding-top: 6rem;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
@@ -240,7 +244,7 @@ export default {
         }
         .button-div {
           @include flex(flex, center, flex-start, row);
-          margin-top: 2rem;
+          margin: 2rem 0 0 0;
           button.pri-btn {
             padding: 0.8rem 2rem;
           }
@@ -248,9 +252,6 @@ export default {
       }
     }
     &-description {
-      .desc {
-        margin: 0 0 3rem;
-      }
       img {
         height: 340px;
       }
@@ -287,7 +288,8 @@ export default {
     }
     &-more,
     &-contact {
-      button.btn {
+      button.btn,
+      a.btn {
         @include font(24px, 500, 36px, $sec-btn);
       }
     }
@@ -313,10 +315,9 @@ export default {
         @include font(20px, 400, 30px, $pri-color);
       }
       img {
-        margin: 0;
         height: auto;
         flex-basis: 40%;
-        margin-left: 3rem;
+        margin: 0 0 0 3rem;
       }
     }
     &-disclaimer {

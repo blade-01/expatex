@@ -3,7 +3,7 @@
     <div class="container">
       <h1>Choose a Longer, Lasting & Finest Quality Paint</h1>
       <p>For your Interior and Exterior Wall Paintings</p>
-      <button class="pri-btn">Get ExpateX Paint</button>
+      <a href="#paints" class="pri-btn">Get ExpateX Paint</a>
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
       @include font(18px, 500, 25px, $sec-color);
       margin: 1.5rem 0;
     }
-    button.pri-btn {
+    a.pri-btn {
       @include font(18px, 600, 24px, $white);
       padding: 1rem 1.5rem;
     }
@@ -55,7 +55,7 @@ export default {
       p {
         @include font(25px, 500, 45px, $sec-color);
       }
-      button.pri-btn {
+      a.pri-btn {
         @include font(16px, 600, 27px, $white);
         padding: 0.9rem 2rem;
       }
@@ -73,7 +73,7 @@ export default {
       p {
         @include font(30px, 500, 45px, $sec-color);
       }
-      button.pri-btn {
+      a.pri-btn {
         @include font(18px, 600, 27px, $white);
         padding: 0.9rem 3rem;
       }

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="paints">
+  <div class="paints" id="paints">
     <div class="container">
       <div class="paints-content">
         <h2>Get ExpateX Paints for Your Walls</h2>

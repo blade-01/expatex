@@ -26,6 +26,18 @@ const routes = [
       import(/* webpackChunkName: "contact-us" */ "../views/ContactUs.vue"),
   },
   {
+    path: "/successful",
+    name: "successful",
+    component: () =>
+      import(/* webpackChunkName: "successful" */ "../views/OrderSuccess.vue"),
+  },
+  {
+    path: "/:CatchAll(.*)",
+    name: "not-found",
+    component: () =>
+      import(/* webpackChunkName: "not-found" */ "../views/NotFound.vue"),
+  },
+  {
     path: "/paint/:id",
     name: "paint",
     component: () =>

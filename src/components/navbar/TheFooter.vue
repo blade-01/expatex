@@ -5,7 +5,9 @@
         <ul>
           <li>Quick Links</li>
           <li v-for="route in routes" :key="route">
-            <a href="#">{{ route.title }}</a>
+            <router-link :to="{ name: route.name }">{{
+              route.title
+            }}</router-link>
           </li>
         </ul>
         <ul>
@@ -41,7 +43,7 @@ export default {
     return {
       routes: [
         {
-          name: "about-us",
+          name: "about",
           title: "about",
         },
         {
@@ -49,13 +51,13 @@ export default {
           title: "Contact us",
         },
         {
-          name: "terms-condition",
+          name: "contact-us",
           title: "Terms and Condition",
         },
       ],
       expatex: [
         {
-          name: "about-us",
+          name: "products",
           title: "Products",
         },
         {

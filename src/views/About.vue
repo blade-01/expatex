@@ -135,7 +135,7 @@ export default {
           @include font(30px, 600, 45px, $sec-btn);
         }
         p {
-          @include font(25px, 300, 40px, $nav-color);
+          @include font(18px, 400, 40px, $nav-color);
         }
       }
     }
@@ -146,7 +146,7 @@ export default {
         margin-bottom: 2rem;
       }
       p {
-        @include font(20px, 400, 30px, $pri-color);
+        @include font(18px, 400, 30px, $pri-color);
         width: 700px;
         margin: 3rem auto;
       }
@@ -163,6 +163,14 @@ export default {
 
 @media screen and (min-width: 1400px) {
   .about {
+    &-info {
+      h3 {
+        @include font(30px, 600, 45px, $sec-btn);
+      }
+      p {
+        @include font(25px, 400, 40px, $nav-color);
+      }
+    }
     &-description {
       h4 {
         @include font(40px, 600, 60px, $sec-btn);

@@ -13,7 +13,9 @@
         <ul>
           <li>Expatex</li>
           <li v-for="expat in expatex" :key="expat">
-            <a href="#">{{ expat.title }}</a>
+            <router-link :to="{ name: expat.name }">{{
+              expat.title
+            }}</router-link>
           </li>
         </ul>
         <ul>
@@ -57,7 +59,7 @@ export default {
       ],
       expatex: [
         {
-          name: "products",
+          name: "gallery",
           title: "Products",
         },
         {

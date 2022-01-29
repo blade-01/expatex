@@ -26,6 +26,12 @@ const routes = [
       import(/* webpackChunkName: "contact-us" */ "../views/ContactUs.vue"),
   },
   {
+    path: "/gallery",
+    name: "gallery",
+    component: () =>
+      import(/* webpackChunkName: "gallery" */ "../views/GalleryView.vue"),
+  },
+  {
     path: "/successful",
     name: "successful",
     component: () =>

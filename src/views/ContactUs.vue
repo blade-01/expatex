@@ -15,6 +15,7 @@
     </div>
     <contact-links />
   </aside>
+  <contact-map />
   <the-footer />
 </template>
 
@@ -23,6 +24,7 @@ import TheHeader from "@/components/navbar/TheHeader.vue";
 import TheFooter from "@/components/navbar/TheFooter.vue";
 import ContactForm from "@/components/reuseables/ContactForm.vue";
 import ContactLinks from "@/components/reuseables/ContactLinks.vue";
+import ContactMap from "@/components/reuseables/ContactMap.vue";
 export default {
   name: "ContactUs",
   data() {
@@ -39,6 +41,7 @@ export default {
     TheFooter,
     ContactForm,
     ContactLinks,
+    ContactMap,
   },
 };
 </script>
@@ -53,6 +56,7 @@ export default {
     @include flex(flex, center, center, column);
     text-align: center;
     margin: auto;
+    width: 90%;
     h3 {
       @include font(30px, 700, 42px, $nav-color);
     }

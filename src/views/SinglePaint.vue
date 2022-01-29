@@ -47,7 +47,9 @@
             <p>{{ paint.disclaimer.content }}</p>
           </div>
           <div class="paint-contact">
-            <button class="btn">Contact Us Now</button>
+            <router-link :to="{ name: 'contact-us' }" class="btn"
+              >Contact Us Now</router-link
+            >
           </div>
           <div class="paint-expatex">
             <p>
@@ -197,7 +199,7 @@ export default {
       @extend %afterEffect;
       top: -100px;
     }
-    button.btn {
+    a.btn {
       background: none;
       color: $sec-btn;
       text-decoration: underline;
@@ -288,9 +290,9 @@ export default {
     }
     &-more,
     &-contact {
-      button.btn,
+      a.btn,
       a.btn {
-        @include font(24px, 500, 36px, $sec-btn);
+        @include font(18px, 500, 36px, $sec-btn);
       }
     }
     &-description {

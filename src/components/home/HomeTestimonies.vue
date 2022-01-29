@@ -30,7 +30,9 @@
         </Splide>
       </div>
       <div class="testimonies-more">
-        <button class="btn">Contact Us Now</button>
+        <router-link :to="{ name: 'contact-us' }" class="btn"
+          >Contact Us Now</router-link
+        >
       </div>
     </div>
   </div>
@@ -167,7 +169,7 @@ export default {
       width: 0;
       border: dashed 1px $sec-btn;
     }
-    button.btn {
+    a.btn {
       background: none;
       color: $sec-btn;
       text-decoration: underline;
@@ -198,7 +200,7 @@ export default {
       }
     }
     &-more {
-      button.btn {
+      a.btn {
         @include font(18px, 500, 30px, $sec-btn);
       }
     }

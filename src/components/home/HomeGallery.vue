@@ -97,7 +97,7 @@ export default {
     button.btn {
       background: none;
       text-decoration: underline;
-      @include font(20px, 500, 30px, $sec-btn);
+      @include font(16px, 500, 30px, $sec-btn);
     }
   }
 }
@@ -149,6 +149,11 @@ export default {
           height: auto;
           max-width: 450px;
         }
+      }
+    }
+    .see-more {
+      button.btn {
+        @include font(18px, 500, 30px, $sec-btn);
       }
     }
   }

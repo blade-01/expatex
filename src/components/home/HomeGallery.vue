@@ -41,10 +41,10 @@ export default {
           src: "gal-01.png",
         },
         {
-          src: "gal-02.png",
+          src: "gal-03.png",
         },
         {
-          src: "gal-03.png",
+          src: "gal-02.png",
         },
         {
           src: "gal-04.png",
@@ -77,19 +77,10 @@ export default {
     }
   }
   &-grid {
-    @include grid(grid, 2, 1fr, 2rem, 1rem);
-    align-items: end;
-    .gall {
-      img {
-        height: auto;
-      }
-    }
-    .gall:nth-child(2),
-    .gall:nth-child(4) {
-      justify-self: end;
-    }
-    .gall:nth-child(3) {
-      align-self: start;
+    column-count: 2;
+    column-gap: 16px;
+    img {
+      margin-bottom: 8px;
     }
   }
   .see-more {
@@ -141,16 +132,6 @@ export default {
         @include font(20px, 400, 30px, $pri-color);
       }
     }
-    &-grid {
-      @include grid(grid, 2, 1fr, 4rem, 0);
-      align-items: end;
-      .gall {
-        img {
-          height: auto;
-          max-width: 450px;
-        }
-      }
-    }
     .see-more {
       button.btn {
         @include font(18px, 500, 30px, $sec-btn);
@@ -194,18 +175,6 @@ export default {
   }
 }
 @media screen and (min-width: 1200px) {
-  .gallery {
-    &-grid {
-      @include grid(grid, 2, 1fr, 4rem, 0);
-      align-items: end;
-      .gall {
-        img {
-          height: auto;
-          max-width: 800px;
-        }
-      }
-    }
-  }
   .get-expatex {
     img {
       width: 486px;

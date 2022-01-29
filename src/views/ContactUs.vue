@@ -22,9 +22,9 @@
 <script>
 import TheHeader from "@/components/navbar/TheHeader.vue";
 import TheFooter from "@/components/navbar/TheFooter.vue";
-import ContactForm from "@/components/reuseables/ContactForm.vue";
-import ContactLinks from "@/components/reuseables/ContactLinks.vue";
-import ContactMap from "@/components/reuseables/ContactMap.vue";
+import ContactForm from "@/components/contact/ContactForm.vue";
+import ContactLinks from "@/components/contact/ContactLinks.vue";
+import ContactMap from "@/components/contact/ContactMap.vue";
 export default {
   name: "ContactUs",
   data() {

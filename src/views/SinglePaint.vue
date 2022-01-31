@@ -15,7 +15,12 @@
             </p>
           </div>
           <div class="button-div">
-            <button class="pri-btn">Buy Now</button>
+            <button
+              class="pri-btn"
+              @click="$router.push({ name: 'color-guide' })"
+            >
+              Buy Now
+            </button>
           </div>
         </div>
       </div>

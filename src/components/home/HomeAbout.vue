@@ -12,7 +12,9 @@
           exercitation mollit laboris sint tempor incididunt magna. In voluptate
           mollit in sit occaecat cillum est labore nostrud ex deserunt
         </p>
-        <button class="pri-btn">Contact Us</button>
+        <button class="pri-btn" @click="$router.push({ name: 'contact-us' })">
+          Contact Us
+        </button>
       </div>
     </div>
   </div>

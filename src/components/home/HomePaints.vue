@@ -18,7 +18,12 @@
               <button class="btn" @click="viewPaint(paint.id)">
                 View Details
               </button>
-              <button class="pri-btn">Buy Now</button>
+              <button
+                class="pri-btn"
+                @click="$router.push({ name: 'color-guide' })"
+              >
+                Buy Now
+              </button>
             </div>
           </div>
         </div>

@@ -10,10 +10,18 @@
         <div class="about-content-info">
           <h3 class="hide-on-sm">About Us</h3>
           <p>
-            Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur
-            occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip.
-            Do amet tempor sunt cillum nulla dolor labore nisi consectetur.
-            Deserunt tempor exercitation occaecat consectetur fugiat.
+            For many years, we have continued to consistently manufacture
+            durable, tough, heat resistant, and fireproof paints, which also
+            protect against toxic fumes. Our products are manufactured under
+            strict and unique technical processes, to give you the best result
+            every time. Our Expatex colour paint does not fade or change in
+            color. Our team of experts are always ready and willing to guide you
+            in making the best choice when it comes to our wide array of colors.
+            Our paints are affordable; do not crack upon drying and meet all the
+            known safety requirements. So, come to Expatex Paints today and join
+            the ever-increasing number of customers who can testify to the
+            quality of our products and services. Try us today and experience
+            quality paints like never before.
           </p>
         </div>
       </div>

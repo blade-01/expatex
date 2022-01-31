@@ -27,6 +27,14 @@
               class="mdi mdi-magnify"
               @click="searchBar = !searchBar"
             ></span>
+            <ul>
+              <li>
+                <router-link :to="{ name: 'contact-us' }">Login</router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'contact-us' }">Sign Up</router-link>
+              </li>
+            </ul>
           </div>
           <div
             @click="openNav"
@@ -173,6 +181,9 @@ img {
 }
 .log-sign {
   @include flex(flex, space-between, center, row);
+  ul {
+    display: none;
+  }
   span {
     margin-right: 0.8rem;
     @include font(18px, 500, 21px, $nav-color);
@@ -188,21 +199,6 @@ img {
   opacity: 0;
 }
 
-@media screen and (min-width: 700px) {
-  .flex-nav {
-    .input-field {
-      position: relative;
-      top: 0;
-      left: 0;
-      padding: 0;
-      background: none;
-      input {
-        width: 300px;
-        margin: 0 1rem 0 0;
-      }
-    }
-  }
-}
 @media screen and (min-width: 1000px) {
   %after {
     position: absolute;
@@ -236,6 +232,7 @@ img {
     & ul {
       padding: 0;
       margin: 0;
+      display: block;
     }
     & ul li {
       display: inline;
@@ -267,7 +264,26 @@ img {
       }
     }
   }
+  .flex-nav {
+    .input-field {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      padding: 0;
+      background: none;
+      margin: 0;
+      width: auto;
+      input {
+        width: 280px;
+        margin: 0;
+      }
+    }
+  }
   .log-sign {
+    span {
+      margin: 0 0.8rem 0;
+    }
     & ul {
       @include flex(flex, space-between, center, row);
       border: solid 1px $sec-btn;

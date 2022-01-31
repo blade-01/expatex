@@ -18,15 +18,15 @@
         </div>
         <div class="flex-nav">
           <div class="log-sign">
-            <span class="mdi mdi-magnify"></span>
-            <ul class="hide-on-sm">
-              <li>
-                <router-link :to="{ name: 'contact-us' }">Login</router-link>
-              </li>
-              <li>
-                <router-link :to="{ name: 'contact-us' }">Sign Up</router-link>
-              </li>
-            </ul>
+            <transition name="fade">
+              <div class="input-field" v-show="searchBar">
+                <input type="search" placeholder="Search..." />
+              </div>
+            </transition>
+            <span
+              class="mdi mdi-magnify"
+              @click="searchBar = !searchBar"
+            ></span>
           </div>
           <div
             @click="openNav"
@@ -49,6 +49,7 @@ export default {
   data() {
     return {
       open: false,
+      searchBar: false,
       routes: [
         {
           name: "home",
@@ -160,8 +161,14 @@ img {
 }
 .flex-nav {
   @include flex(flex, space-between, center, row);
-  ul {
-    display: none;
+  .input-field {
+    padding: 1rem;
+    background: $white;
+    position: absolute;
+    top: 0;
+    margin-top: 78px;
+    left: 0;
+    width: 100%;
   }
 }
 .log-sign {
@@ -169,6 +176,31 @@ img {
   span {
     margin-right: 0.8rem;
     @include font(18px, 500, 21px, $nav-color);
+  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .flex-nav {
+    .input-field {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding: 0;
+      background: none;
+      input {
+        width: 300px;
+        margin: 0 1rem 0 0;
+      }
+    }
   }
 }
 @media screen and (min-width: 1000px) {

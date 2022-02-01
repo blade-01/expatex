@@ -29,11 +29,10 @@
         <div class="about-mission-text">
           <h4>Our Mission and Vision</h4>
           <p>
-            Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur
-            occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip.
-            Do amet tempor sunt cillum nulla dolor labore nisi consectetur.
-            Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi
-            aliqua occaecat nulla reprehenderit. Veniam ipsum
+            To be the most preferred quality brand for decorative and industrial
+            coatings.
+            <br />
+            To add value by exceeding your customers expectations.
           </p>
         </div>
         <img src="@/assets/img/about-02.png" alt="about_one" />

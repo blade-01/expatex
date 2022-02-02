@@ -4,8 +4,8 @@
       <div class="paints-content">
         <h2>Get ExpateX Paints for Your Walls</h2>
         <p>
-          Ullamco pariatu nostrud. Dolor eiusmod occaecat excepteur ocariatur
-          quip. Do amet tempor sunt cillum n
+          Creating an entirely new universe of possibilities to add value and
+          bringing surfaces to life.
         </p>
       </div>
       <div class="paints-grid">
@@ -144,13 +144,13 @@ export default {
 @media screen and (min-width: 1000px) {
   .paints {
     &-content {
-      width: 700px;
+      width: 650px;
       margin: auto auto 5rem;
       h2 {
         @include font(30px, 600, 50px, $sec-btn);
       }
       p {
-        @include font(20px, 400, 30px, $pri-color);
+        @include font(18px, 400, 30px, $pri-color);
       }
     }
     &-grid {

@@ -5,10 +5,9 @@
         <span class="mdi mdi-home-outline"></span>
         <ul>
           <li>Address</li>
-          <li>Oremeji, iyana Camp Area,</li>
           <li>KM 38, Lagos-Abeokuta</li>
-          <li>Expressway, Itori,</li>
-          <li>EWEKORO.</li>
+          <li>Expressway, Itori, Ewekoro</li>
+          <li>Ogun State</li>
         </ul>
       </div>
       <div class="link">
@@ -17,7 +16,7 @@
           <li>Email</li>
           <li>Reach out to us via our email address</li>
           <li>
-            <a href="mailto:info@expatexpaints.com">info@expatexpaints.com</a>
+            <a href="mailto:expatexpaint@gmail.com">expatexpaint@gmail.com</a>
           </li>
         </ul>
       </div>
@@ -26,7 +25,7 @@
         <ul>
           <li>Phone</li>
           <li><a href="tel:+234-8067860593">+234-8067860593</a></li>
-          <li><a href="tel:+234-8067860593">+234-8067860593</a></li>
+          <li><a href="tel:+234-8022442439">+234-8022442439</a></li>
           <li><a href=""></a></li>
         </ul>
       </div>

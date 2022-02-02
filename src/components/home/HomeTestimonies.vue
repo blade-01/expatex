@@ -3,10 +3,7 @@
     <div class="container">
       <div class="testimonies-content">
         <h2>Get ExpateX Testimonies</h2>
-        <p>
-          Ullamco pariatu nostrud. Dolor eiusmod occaecat excepteur ocariatur
-          quip. Do amet tempor sunt cillum n
-        </p>
+        <p>What our clienets are saying.</p>
       </div>
       <div class="testimonies-grid">
         <Splide :options="options">
@@ -81,21 +78,21 @@ export default {
           name: "Arc. Deji Zubair",
           title: "Architect",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum ",
+            "I'm quite delighted with how Expatex Smart paint has given our home a new lease on life. I'm overjoyed because I received good value for my money. I have no reservations in recommending Expatex Smart Paint to our family and friends.",
           src: "avatar.png",
         },
         {
           name: "Arc. Deji Zubair",
           title: "Architect",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum ",
+            "I'm quite delighted with how Expatex Smart paint has given our home a new lease on life. I'm overjoyed because I received good value for my money. I have no reservations in recommending Expatex Smart Paint to our family and friends.",
           src: "avatar.png",
         },
         {
           name: "Arc. Deji Zubair",
           title: "Architect",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum ",
+            "I'm quite delighted with how Expatex Smart paint has given our home a new lease on life. I'm overjoyed because I received good value for my money. I have no reservations in recommending Expatex Smart Paint to our family and friends.",
           src: "avatar.png",
         },
       ],

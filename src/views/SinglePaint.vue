@@ -189,7 +189,7 @@ export default {
   &-disclaimer {
     h5 {
       @include font(24px, 600, 36px, $sec-btn);
-      margin-bottom: 1.3rem;
+      margin-bottom: 2rem;
     }
     p {
       @include font(14px, 400, 26px, $pri-color);
@@ -319,7 +319,7 @@ export default {
         margin-bottom: 2rem;
       }
       p {
-        @include font(20px, 400, 30px, $pri-color);
+        @include font(18px, 400, 30px, $pri-color);
       }
       img {
         height: auto;
@@ -333,10 +333,9 @@ export default {
       margin: 7rem auto 0;
       h5 {
         @include font(30px, 600, 23px, $sec-btn);
-        margin-bottom: 1.3rem;
       }
       p {
-        @include font(20px, 400, 30px, $pri-color);
+        @include font(18px, 400, 35px, $pri-color);
       }
     }
     &-expatex {
@@ -354,9 +353,6 @@ export default {
       h4 {
         @include font(40px, 600, 60px, $sec-btn);
       }
-      p {
-        @include font(28px, 400, 44px, $pri-color);
-      }
       img {
         margin: 0;
         flex-basis: 40%;
@@ -368,9 +364,6 @@ export default {
       h5 {
         @include font(40px, 600, 60px, $sec-btn);
         margin-bottom: 1.3rem;
-      }
-      p {
-        @include font(28px, 400, 44px, $pri-color);
       }
     }
     &-expatex {

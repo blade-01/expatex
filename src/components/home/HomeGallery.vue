@@ -5,8 +5,8 @@
         <div class="gallery-content">
           <h2>ExpateX Gallery</h2>
           <p>
-            Ullamco pariatu nostrud. Dolor eiusmod occaecat excepteur ocariatur
-            quip. Do amet tempor sunt cillum n
+            Browse through our recently executed projects to get a feel of the
+            colourful and fasinating work done.
           </p>
         </div>
         <div class="see-more">
@@ -198,7 +198,7 @@ export default {
       @include font(40px, 700, 55px, $white);
     }
     p {
-      @include font(24px, 600, 36px, $white);
+      @include font(20px, 600, 36px, $white);
       margin: 1rem 0;
     }
     a.pri-btn {

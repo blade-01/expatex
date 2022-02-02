@@ -53,20 +53,20 @@ export default createStore({
           {
             name: "Surface Preparation",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Ensure all Surfaces are free of dirt, loose particles, grease and other contaminants that can interfere with the adhesion of the paint on the substrate.",
             src: "illus-01.svg",
           },
           {
             name: "Health & Safety Precaution",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Avoid inhalation, avoid skin and eye contact by using gloves, goggles, and face masks. Provide adequate ventilation. If product comes in contact with skin, wash thoroughly with plenty water and soap. If the eyes are contaminated ush with water up to 15minutes and seek medical attention.",
             src: "illus-02.png",
           },
         ],
         disclaimer: {
           name: "Disclaimer",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+            "The information given in this sheet is not intended to be exhaustive and any person using the product for any purpose other than that specically recommended in this sheet without rst obtaining written conrmation from us to the suitability of the product for the intended purpose does so at his own risk. We guarantee our product to conform to the specifications contained herein. WE MAKE NO OTHER WARRANTY OR GUARANTEE OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY. The information contained in this sheet is liable to modification from time to time in the light of experience and our policy of continuous improvement, which makes it the responsibility of the person relaying on the information sheet to ensure that he is having the last updated version.",
         },
       },
       {
@@ -119,20 +119,20 @@ export default createStore({
           {
             name: "Surface Preparation",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Ensure all Surfaces are free of dirt, loose particles, grease and other contaminants that can interfere with the adhesion of the paint on the substrate.",
             src: "illus-01.svg",
           },
           {
             name: "Health & Safety Precaution",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Avoid inhalation, avoid skin and eye contact by using gloves, goggles, and face masks. Provide adequate ventilation. If product comes in contact with skin, wash thoroughly with plenty water and soap. If the eyes are contaminated ush with water up to 15minutes and seek medical attention.",
             src: "illus-02.png",
           },
         ],
         disclaimer: {
           name: "Disclaimer",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+            "The information given in this sheet is not intended to be exhaustive and any person using the product for any purpose other than that specically recommended in this sheet without rst obtaining written conrmation from us to the suitability of the product for the intended purpose does so at his own risk. We guarantee our product to conform to the specifications contained herein. WE MAKE NO OTHER WARRANTY OR GUARANTEE OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY. The information contained in this sheet is liable to modification from time to time in the light of experience and our policy of continuous improvement, which makes it the responsibility of the person relaying on the information sheet to ensure that he is having the last updated version.",
         },
       },
       {
@@ -185,20 +185,20 @@ export default createStore({
           {
             name: "Surface Preparation",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Ensure all Surfaces are free of dirt, loose particles, grease and other contaminants that can interfere with the adhesion of the paint on the substrate.",
             src: "illus-01.svg",
           },
           {
             name: "Health & Safety Precaution",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Avoid inhalation, avoid skin and eye contact by using gloves, goggles, and face masks. Provide adequate ventilation. If product comes in contact with skin, wash thoroughly with plenty water and soap. If the eyes are contaminated ush with water up to 15minutes and seek medical attention.",
             src: "illus-02.png",
           },
         ],
         disclaimer: {
           name: "Disclaimer",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+            "The information given in this sheet is not intended to be exhaustive and any person using the product for any purpose other than that specically recommended in this sheet without rst obtaining written conrmation from us to the suitability of the product for the intended purpose does so at his own risk. We guarantee our product to conform to the specifications contained herein. WE MAKE NO OTHER WARRANTY OR GUARANTEE OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY. The information contained in this sheet is liable to modification from time to time in the light of experience and our policy of continuous improvement, which makes it the responsibility of the person relaying on the information sheet to ensure that he is having the last updated version.",
         },
       },
       {
@@ -251,20 +251,20 @@ export default createStore({
           {
             name: "Surface Preparation",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Ensure all Surfaces are free of dirt, loose particles, grease and other contaminants that can interfere with the adhesion of the paint on the substrate.",
             src: "illus-01.svg",
           },
           {
             name: "Health & Safety Precaution",
             content:
-              "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+              "Avoid inhalation, avoid skin and eye contact by using gloves, goggles, and face masks. Provide adequate ventilation. If product comes in contact with skin, wash thoroughly with plenty water and soap. If the eyes are contaminated ush with water up to 15minutes and seek medical attention.",
             src: "illus-02.png",
           },
         ],
         disclaimer: {
           name: "Disclaimer",
           content:
-            "Ullamco pariatur veniam eu nostrud. Dolor eiusmod occaecat excepteur occaecat eiusmod elit ad pariatur sit eiusmod cillum dolor aliquip. Do amet tempor sunt cillum nulla dolor labore nisi consectetur. Deserunt tempor exercitation occaecat consectetur fugiat. Ea nisi aliqua occaecat nulla reprehenderit. Veniam ipsum ",
+            "The information given in this sheet is not intended to be exhaustive and any person using the product for any purpose other than that specically recommended in this sheet without rst obtaining written conrmation from us to the suitability of the product for the intended purpose does so at his own risk. We guarantee our product to conform to the specifications contained herein. WE MAKE NO OTHER WARRANTY OR GUARANTEE OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY. The information contained in this sheet is liable to modification from time to time in the light of experience and our policy of continuous improvement, which makes it the responsibility of the person relaying on the information sheet to ensure that he is having the last updated version.",
         },
       },
     ],

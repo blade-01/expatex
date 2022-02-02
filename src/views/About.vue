@@ -10,18 +10,14 @@
         <div class="about-content-info">
           <h3 class="hide-on-sm">About Us</h3>
           <p>
-            For many years, we have continued to consistently manufacture
-            durable, tough, heat resistant, and fireproof paints, which also
-            protect against toxic fumes. Our products are manufactured under
-            strict and unique technical processes, to give you the best result
-            every time. Our Expatex colour paint does not fade or change in
-            color. Our team of experts are always ready and willing to guide you
-            in making the best choice when it comes to our wide array of colors.
-            Our paints are affordable; do not crack upon drying and meet all the
-            known safety requirements. So, come to Expatex Paints today and join
-            the ever-increasing number of customers who can testify to the
-            quality of our products and services. Try us today and experience
-            quality paints like never before.
+            Expatex Smart Paints company is driven, as a matter of choice, by
+            value. i.e:<br />
+            Value to our esteemed clients by way of beautiful and very
+            attractive internal and external decor. <br />
+            Value for money spent by our customers at the high end, high, medium
+            and low income brackets. <br />
+            Our smart paints are in three (3) categories, namely: Special smart
+            paints, Decorative paint, Industrial paints.
           </p>
         </div>
       </div>
@@ -174,26 +170,16 @@ export default {
       h3 {
         @include font(30px, 600, 45px, $sec-btn);
       }
-      p {
-        @include font(25px, 400, 40px, $nav-color);
-      }
     }
     &-description {
       h4 {
         @include font(40px, 600, 60px, $sec-btn);
-      }
-      p {
-        @include font(28px, 400, 44px, $pri-color);
       }
     }
     &-mission {
       h4 {
         @include font(40px, 600, 60px, $sec-btn);
         margin-bottom: 1.3rem;
-      }
-      p {
-        @include font(28px, 400, 44px, $pri-color);
-        width: 800px;
       }
     }
     &-expatex {

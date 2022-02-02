@@ -3,10 +3,7 @@
   <section class="contact-head">
     <div class="contact-head-content routes">
       <h3>Contact Us</h3>
-      <p>
-        Ullamco pariatu nostrud. Dolor eiusmod occaecat excepteur ocariatur
-        quip. Do amet tempor sunt cillum n
-      </p>
+      <p>Reach us via our various communication channels.</p>
     </div>
   </section>
   <aside class="contact">
@@ -92,13 +89,13 @@ export default {
     &-content {
       @include flex(flex, center, center, column);
       text-align: center;
-      width: 650px;
+      width: 400px;
       margin: auto;
       h3 {
         @include font(30px, 600, 40px, $nav-color);
       }
       p {
-        @include font(18px, 500, 34px, $nav-color);
+        @include font(18px, 400, 34px, $nav-color);
         margin: 1.5rem 0;
       }
     }

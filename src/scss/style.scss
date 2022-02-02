@@ -81,6 +81,11 @@ ul {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
 @media screen and (min-width: 1500px) {
   .container {
     width: 1300px !important;

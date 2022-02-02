@@ -6,7 +6,9 @@
         <div class="paint-content-name">
           <h3 class="hide-on-lg">{{ paint.name }}</h3>
         </div>
-        <img :src="require(`@/assets/img/${paint.full}`)" :alt="paint.name" />
+        <div class="paint-img">
+          <img :src="require(`@/assets/img/${paint.full}`)" :alt="paint.name" />
+        </div>
         <div class="paint-content-info">
           <h3 class="hide-on-sm">{{ paint.name }}</h3>
           <div class="info">
@@ -124,11 +126,24 @@ export default {
   padding: 2rem 0 5rem;
   color: $pri-color;
   &-content {
-    img {
-      border-radius: 30px;
-      height: 323.61px;
+    .paint-img {
+      position: relative;
       margin: 2rem auto;
-      object-fit: cover;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        right: 0;
+        height: 60px;
+        width: 60%;
+        background: #c02e2e;
+        border-radius: 30px 0 30px 30px;
+      }
+      img {
+        border-radius: 30px;
+        height: 323.61px;
+        object-fit: cover;
+      }
     }
     &-name h3 {
       text-align: center;
@@ -237,9 +252,11 @@ export default {
   .paint {
     &-content {
       @include flex(flex, space-between, flex-start, row);
-      img {
-        flex-basis: 40%;
+      .paint-img {
         margin: 0 1rem 0 0;
+        img {
+          flex-basis: 40%;
+        }
       }
       &-info {
         flex-basis: 60%;
@@ -250,7 +267,7 @@ export default {
           margin-bottom: 1rem;
         }
         .button-div {
-          @include flex(flex, center, flex-start, row);
+          @include flex(flex, flex-start, center, row);
           margin: 2rem 0 0 0;
           button.pri-btn {
             padding: 0.8rem 2rem;
@@ -269,10 +286,12 @@ export default {
 @media screen and (min-width: 1000px) {
   .paint {
     &-content {
-      img {
-        width: 450px;
-        height: 450px;
+      .paint-img {
         margin: 0 2rem 0 0;
+        img {
+          width: 450px;
+          height: 450px;
+        }
       }
       &-info {
         h3 {

@@ -13,7 +13,7 @@
           <img :src="require(`@/assets/img/${paint.thumbnail}`)" />
           <div class="paint-body">
             <h3>{{ paint.name }}</h3>
-            <p>{{ paint.desc }}</p>
+            <p>{{ truncateText(paint.desc) }}</p>
             <div class="flex-button">
               <button class="btn" @click="viewPaint(paint.id)">
                 View Details
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="paints-more">
-        <button class="btn">See More</button>
+        <button class="btn">See more from our paint collections</button>
       </div>
     </div>
   </div>
@@ -44,6 +44,9 @@ export default {
   methods: {
     viewPaint(id) {
       this.$router.push({ name: "paint", params: { id: id } });
+    },
+    truncateText(value) {
+      return value.substring(0, 50) + "...";
     },
   },
 };
@@ -79,7 +82,7 @@ export default {
         transition: all 0.3s ease;
       }
       h3 {
-        @include font(14px, 600, 21px, $nav-color);
+        @include font(13.6px, 600, 21px, $nav-color);
         padding-bottom: 0.5rem;
       }
       p {

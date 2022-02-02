@@ -1,8 +1,7 @@
 <template lang="html">
   <div class="main">
     <div class="container">
-      <h1>Choose a Longer, Lasting & Finest Quality Paint</h1>
-      <p>For your Interior and Exterior Wall Paintings</p>
+      <h1>Smart, Contemporary, Value Adding Paints</h1>
       <a href="#paints" class="pri-btn">Get ExpateX Paint</a>
     </div>
   </div>
@@ -33,6 +32,7 @@ export default {
     a.pri-btn {
       @include font(18px, 600, 24px, $white);
       padding: 1rem 1.5rem;
+      margin-top: 3rem;
     }
   }
 }
@@ -50,7 +50,7 @@ export default {
     & .container {
       width: 700px;
       h1 {
-        @include font(50px, 700, 74px, $sec-btn);
+        @include font(45px, 700, 74px, $sec-btn);
       }
       p {
         @include font(25px, 500, 45px, $sec-color);

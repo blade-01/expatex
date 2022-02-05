@@ -9,11 +9,11 @@
     <div class="container">
       <div class="card-grid">
         <div class="grid-one">
-          <img src="@/assets/img/rec-07.jpg" alt="rec" />
+          <img src="@/assets/img/img-08.jpg" alt="rec" />
           <div class="text">
             <h3>Always be Inspired</h3>
           </div>
-          <img src="@/assets/img/rec-13.jpg" alt="rec" />
+          <img src="@/assets/img/rec-09.jpg" alt="rec" />
         </div>
         <div class="grid-two">
           <div class="card" v-for="image in images" :key="image">
@@ -67,59 +67,59 @@ export default {
     return {
       images: [
         {
-          src: "rec-10.jpg",
+          src: "img-10.jpg",
         },
         {
-          src: "rec-13.jpg",
+          src: "img-06.jpg",
         },
         {
-          src: "rec-07.jpg",
+          src: "img-03.jpg",
         },
         {
-          src: "rec-09.jpg",
+          src: "img-04.jpg",
         },
       ],
       interiors: [
         {
-          src: "rec-07.jpg",
+          src: "img-01.jpg",
         },
         {
-          src: "rec-10.jpg",
+          src: "img-02.jpg",
         },
         {
-          src: "rec-13.jpg",
+          src: "img-03.jpg",
         },
         {
-          src: "rec-11.jpg",
+          src: "img-04.jpg",
         },
         {
-          src: "rec-09.jpg",
+          src: "img-05.jpg",
         },
         {
-          src: "rec-12.jpg",
+          src: "img-06.jpg",
         },
       ],
       exteriors: [
         {
-          src: "rec-15.jpg",
+          src: "img-06.jpg",
         },
         {
           src: "rec-17.jpg",
         },
         {
-          src: "rec-05.jpg",
+          src: "img-07.jpg",
         },
         {
-          src: "rec-20.jpg",
+          src: "img-08.jpg",
         },
         {
           src: "rec-02.jpg",
         },
         {
-          src: "rec-16.jpg",
+          src: "img-05.jpg",
         },
         {
-          src: "rec-06.jpg",
+          src: "rec-17.jpg",
         },
       ],
     };
@@ -158,7 +158,6 @@ export default {
   margin: 3rem 0 0;
 }
 .card-wraps {
-  margin-bottom: 2rem;
   h3 {
     @include font(18px, 600, 24px, $nav-color);
     margin-bottom: 1.5rem;
@@ -187,6 +186,10 @@ export default {
     width: 100%;
     height: 100%;
   }
+}
+.card-wraps,
+.card-grid {
+  margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -221,7 +224,9 @@ export default {
     }
   }
 }
-
+img {
+  border-radius: 10px;
+}
 @media screen and (min-width: 1000px) {
   .main {
     & .container {

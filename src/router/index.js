@@ -26,6 +26,14 @@ const routes = [
       import(/* webpackChunkName: "contact-us" */ "../views/ContactUs.vue"),
   },
   {
+    path: "/paint-collection",
+    name: "paint-collection",
+    component: () =>
+      import(
+        /* webpackChunkName: "paint-collection" */ "../views/PaintCollection.vue"
+      ),
+  },
+  {
     path: "/gallery",
     name: "gallery",
     component: () =>

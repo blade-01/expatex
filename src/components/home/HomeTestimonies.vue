@@ -35,9 +35,7 @@
   </div>
   <div class="contact">
     <div class="container">
-      <h4>
-        ExpateX paint is your best paint for interior and Exterior finishes.
-      </h4>
+      <h4>Finest quality, longer lasting finish</h4>
     </div>
   </div>
 </template>

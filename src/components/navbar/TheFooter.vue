@@ -20,8 +20,13 @@
         </ul>
         <ul>
           <li>Expatex Outlets</li>
+          <li>KM 38, Lagos-Abeokuta</li>
+          <li>Expressway, Itori</li>
           <li>Ogun State</li>
-          <li>Follow Us</li>
+          <br />
+          <li>40, Murtala Muhammad way,</li>
+          <li>Jos, Plateau State.</li>
+          <li><strong>Follow Us</strong></li>
           <li class="socials">
             <a
               v-for="social in socials"
@@ -51,10 +56,6 @@ export default {
         {
           name: "contact-us",
           title: "Contact us",
-        },
-        {
-          name: "contact-us",
-          title: "Terms and Condition",
         },
       ],
       expatex: [
@@ -121,6 +122,10 @@ export default {
         @include flex(flex, flex-start, center, row);
         a {
           padding-right: 0.8rem;
+          transition: ease all 0.5s;
+          &:hover {
+            color: $pri-btn;
+          }
         }
       }
     }

@@ -14,7 +14,7 @@
           <h3>Special smart paints</h3>
         </div>
         <div class="paints-grid">
-          <div class="paint" v-for="paint in paints" :key="paint.id">
+          <div class="paint" v-for="paint in specials" :key="paint.id">
             <img :src="require(`@/assets/img/${paint.thumbnail}`)" />
             <div class="paint-body">
               <h3>{{ paint.name }}</h3>
@@ -46,7 +46,7 @@
           <h3>Decorative Finish</h3>
         </div>
         <div class="paints-grid">
-          <div class="paint" v-for="paint in paints" :key="paint.id">
+          <div class="paint" v-for="paint in decorative" :key="paint.id">
             <img :src="require(`@/assets/img/${paint.thumbnail}`)" />
             <div class="paint-body">
               <h3>{{ paint.name }}</h3>
@@ -78,7 +78,7 @@
           <h3>Industrial Coating</h3>
         </div>
         <div class="paints-grid">
-          <div class="paint" v-for="paint in paints" :key="paint.id">
+          <div class="paint" v-for="paint in industrials" :key="paint.id">
             <img :src="require(`@/assets/img/${paint.thumbnail}`)" />
             <div class="paint-body">
               <h3>{{ paint.name }}</h3>
@@ -123,7 +123,7 @@ export default {
     TheFooter,
   },
   computed: {
-    ...mapGetters(["paints"]),
+    ...mapGetters(["decorative", "specials", "industrials"]),
   },
   methods: {
     viewPaint(id) {
@@ -161,6 +161,7 @@ export default {
         rgba(0, 0, 0, 0.06) 1px 2px 4px -3px;
       background: $white;
       img {
+        border-radius: 18px 18px 0 0;
         height: 160px;
         object-fit: cover;
         transition: all 0.3s ease;

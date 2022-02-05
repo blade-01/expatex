@@ -9,11 +9,11 @@
     <div class="container">
       <div class="card-grid">
         <div class="grid-one">
-          <img src="@/assets/img/rec-01.png" alt="rec" />
+          <img src="@/assets/img/rec-07.jpg" alt="rec" />
           <div class="text">
             <h3>Always be Inspired</h3>
           </div>
-          <img src="@/assets/img/rec-02.png" alt="rec" />
+          <img src="@/assets/img/rec-13.jpg" alt="rec" />
         </div>
         <div class="grid-two">
           <div class="card" v-for="image in images" :key="image">
@@ -67,62 +67,59 @@ export default {
     return {
       images: [
         {
-          src: "rec-03.png",
+          src: "rec-10.jpg",
         },
         {
-          src: "rec-04.png",
+          src: "rec-13.jpg",
         },
         {
-          src: "rec-05.png",
+          src: "rec-07.jpg",
         },
         {
-          src: "rec-06.png",
+          src: "rec-09.jpg",
         },
       ],
       interiors: [
         {
-          src: "rec-07.png",
+          src: "rec-07.jpg",
         },
         {
-          src: "rec-10.png",
+          src: "rec-10.jpg",
         },
         {
-          src: "rec-08.png",
+          src: "rec-13.jpg",
         },
         {
-          src: "rec-13.png",
+          src: "rec-11.jpg",
         },
         {
-          src: "rec-11.png",
+          src: "rec-09.jpg",
         },
         {
-          src: "rec-09.png",
-        },
-        {
-          src: "rec-12.png",
+          src: "rec-12.jpg",
         },
       ],
       exteriors: [
         {
-          src: "rec-14.png",
+          src: "rec-15.jpg",
         },
         {
-          src: "rec-17.png",
+          src: "rec-17.jpg",
         },
         {
-          src: "rec-15.png",
+          src: "rec-05.jpg",
         },
         {
-          src: "rec-20.png",
+          src: "rec-20.jpg",
         },
         {
-          src: "rec-18.png",
+          src: "rec-02.jpg",
         },
         {
-          src: "rec-16.png",
+          src: "rec-16.jpg",
         },
         {
-          src: "rec-19.png",
+          src: "rec-06.jpg",
         },
       ],
     };
@@ -213,9 +210,6 @@ export default {
     img {
       margin-bottom: 10px;
     }
-  }
-  .card-wraps {
-    margin-bottom: 0;
   }
   .cards {
     column-count: 3;

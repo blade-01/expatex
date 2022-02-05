@@ -3,7 +3,7 @@
     <div class="container">
       <div class="testimonies-content">
         <h2>Get ExpateX Testimonies</h2>
-        <p>What our clienets are saying.</p>
+        <p>What our clients are saying.</p>
       </div>
       <div class="testimonies-grid">
         <Splide :options="options">

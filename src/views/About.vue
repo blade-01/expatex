@@ -39,13 +39,11 @@
         </div>
         <div class="mission-img">
           <p>Integrity | Building Trust | Team work | Customer Satisfaction</p>
-          <img src="@/assets/img/about-02.png" alt="about_one" />
+          <img src="@/assets/img/about.png" alt="about" />
         </div>
       </div>
       <div class="about-expatex">
-        <p>
-          ExpateX paint is your best paint for interior and Exterior finishes.
-        </p>
+        <p>Finest quality, longer lasting finish</p>
       </div>
     </div>
   </div>
@@ -198,6 +196,7 @@ export default {
         }
         img {
           height: 400px;
+          object-fit: contain;
         }
       }
     }

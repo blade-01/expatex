@@ -26,7 +26,7 @@
           <p>Your No. 1 Paint for all buildings and structures</p>
           <a href="#paints" class="pri-btn">Get ExpateX Paint</a>
         </div>
-        <img src="@/assets/img/get-expatex.png" alt="get_expatex" />
+        <img src="@/assets/img/rec-17.jpg" alt="get_expatex" />
       </div>
     </div>
   </div>
@@ -38,16 +38,16 @@ export default {
     return {
       images: [
         {
-          src: "gal-01.png",
+          src: "rec-01.jpg",
         },
         {
-          src: "gal-03.png",
+          src: "rec-02.jpg",
         },
         {
-          src: "gal-02.png",
+          src: "rec-08.jpg",
         },
         {
-          src: "gal-04.png",
+          src: "rec-04.jpg",
         },
       ],
     };
@@ -81,6 +81,7 @@ export default {
     column-gap: 16px;
     img {
       margin-bottom: 8px;
+      border-radius: 10px;
     }
   }
   .see-more {
@@ -117,19 +118,20 @@ export default {
     width: 85%;
     height: 350px;
     z-index: 10;
+    border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .gallery {
     &-content {
-      width: 700px;
+      width: 650px;
       margin: 0 0 1rem;
       h2 {
         @include font(30px, 600, 50px, $sec-btn);
       }
       p {
-        @include font(20px, 400, 30px, $pri-color);
+        @include font(18px, 400, 30px, $pri-color);
       }
     }
     .see-more {
@@ -187,9 +189,6 @@ export default {
     &-content {
       h2 {
         @include font(40px, 600, 60px, $sec-btn);
-      }
-      p {
-        @include font(28px, 400, 44px, $pri-color);
       }
     }
   }

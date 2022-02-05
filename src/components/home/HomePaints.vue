@@ -9,15 +9,13 @@
         </p>
       </div>
       <div class="paints-grid">
-        <div class="paint" v-for="paint in paints" :key="paint.id">
-          <img :src="require(`@/assets/img/${paint.thumbnail}`)" />
+        <div class="paint" v-for="p in paint" :key="p.id">
+          <img :src="require(`@/assets/img/${p.thumbnail}`)" />
           <div class="paint-body">
-            <h3>{{ paint.name }}</h3>
-            <p>{{ truncateText(paint.desc) }}</p>
+            <h3>{{ p.name }}</h3>
+            <p>{{ truncateText(p.desc) }}</p>
             <div class="flex-button">
-              <button class="btn" @click="viewPaint(paint.id)">
-                View Details
-              </button>
+              <button class="btn" @click="viewPaint(p.id)">View Details</button>
               <button
                 class="pri-btn"
                 @click="$router.push({ name: 'color-guide' })"
@@ -41,7 +39,7 @@ import { mapGetters } from "vuex";
 export default {
   name: "HomePaints",
   computed: {
-    ...mapGetters(["paints"]),
+    ...mapGetters(["paint"]),
   },
   methods: {
     viewPaint(id) {

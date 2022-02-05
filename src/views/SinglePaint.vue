@@ -13,7 +13,8 @@
           <h3 class="hide-on-sm">{{ paint.name }}</h3>
           <div class="info">
             <p v-for="info in paint.info" :key="info">
-              <span>{{ info.name }}:</span> <span>{{ info.content }}</span>
+              <span>{{ info.name }}: </span>
+              <span v-html="info.content" class="list-style"></span>
             </p>
           </div>
           <div class="button-div">
@@ -32,7 +33,7 @@
       <transition name="fade">
         <div class="more" id="more" v-if="show">
           <div class="paint-description">
-            <div class="desc" v-for="detail in paint.details" :key="detail">
+            <div class="desc" v-for="detail in details" :key="detail">
               <div class="desc-content">
                 <h4>{{ detail.name }}</h4>
                 <img
@@ -50,8 +51,22 @@
             </div>
           </div>
           <div class="paint-disclaimer">
-            <h5>{{ paint.disclaimer.name }}</h5>
-            <p>{{ paint.disclaimer.content }}</p>
+            <h5>Disclaimer</h5>
+            <p>
+              The information given in this sheet is not intended to be
+              exhaustive and any person using the product for any purpose other
+              than that specically recommended in this sheet without rst
+              obtaining written conrmation from us to the suitability of the
+              product for the intended purpose does so at his own risk. We
+              guarantee our product to conform to the specifications contained
+              herein. WE MAKE NO OTHER WARRANTY OR GUARANTEE OF ANY KIND,
+              EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY. The information
+              contained in this sheet is liable to modification from time to
+              time in the light of experience and our policy of continuous
+              improvement, which makes it the responsibility of the person
+              relaying on the information sheet to ensure that he is having the
+              last updated version.
+            </p>
           </div>
           <div class="paint-contact">
             <router-link :to="{ name: 'contact-us' }" class="btn"
@@ -84,9 +99,9 @@ export default {
     },
   },
   computed: {
-    ...mapGetters(["paints"]),
+    ...mapGetters(["allPaints", "details"]),
     paint() {
-      return this.paints.find((paint) => paint.id === this.id);
+      return this.allPaints.find((paint) => paint.id === this.id);
     },
   },
   data() {
@@ -156,6 +171,26 @@ export default {
           }
           span:last-child {
             @include font(14px, 400, 21px, $nav-color);
+            & ::v-deep ul {
+              margin: 1rem;
+              text-align: left;
+              list-style-type: none;
+              li {
+                margin: 1rem 0 0;
+                padding-left: 0.3rem;
+              }
+              li:before {
+                content: "";
+                display: inline-block;
+                height: 10px;
+                width: 10px;
+                background-size: 10px;
+                background-image: url("../assets/img/check.svg");
+                background-repeat: no-repeat;
+                margin-right: 0.7rem;
+                margin-left: -1.3rem;
+              }
+            }
           }
         }
       }

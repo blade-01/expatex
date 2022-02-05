@@ -6,8 +6,11 @@
         <ul>
           <li>Address</li>
           <li>KM 38, Lagos-Abeokuta</li>
-          <li>Expressway, Itori, Ewekoro</li>
+          <li>Expressway, Itori</li>
           <li>Ogun State</li>
+          <br />
+          <li>40, Murtala Muhammad way,</li>
+          <li>Jos, Plateau State.</li>
         </ul>
       </div>
       <div class="link">

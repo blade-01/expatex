@@ -17,7 +17,12 @@
         </div>
         <div class="get-expatex">
           <h3>Go ahead and get Expatex paints in this colour</h3>
-          <button class="pri-btn">Get Expatex Paint</button>
+          <button
+            class="pri-btn"
+            @click="$router.push({ name: 'paint-collection' })"
+          >
+            Get Expatex Paint
+          </button>
         </div>
       </div>
       <div class="expatex">
@@ -384,7 +389,7 @@ export default {
     .color-tab {
       margin: 0;
     }
-    @include grid(grid, 8, 1fr, 1rem, 1rem);
+    @include grid(grid, 6, 1fr, 1rem, 1rem);
   }
   .expatex-wrap {
     margin: 5rem 0;
@@ -404,6 +409,7 @@ export default {
 
 @media screen and (min-width: 1000px) {
   .color-tabs {
+    @include grid(grid, 8, 1fr, 1rem, 1rem);
     .color {
       width: 100px;
       height: 100px;

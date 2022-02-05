@@ -506,48 +506,19 @@ export default createStore({
       },
       {
         id: "12",
-        name: "ExpateX Matt Paint",
-        thumbnail: "paint-04.png",
-        full: "full-04.png",
-        desc: "A high quality fine textured finish with a resistance to extreme weather.",
+        name: "ExpateX Sterilizer Paint",
+        thumbnail: "paint-10.png",
+        full: "full-10.png",
+        desc: "Treatment for walls, Kills algae and fungi attack on walls Environmental friendly",
         info: [
           {
-            name: "Usage",
-            content: "For Interior and Exterior Substrates.",
-          },
-          {
-            name: "Colours",
-            content:
-              "Available in ExpateX colour guide and other standard colour.",
-          },
-          {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
-          },
-          {
-            name: "Packaging",
-            content: "20 Litres",
-          },
-          {
-            name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
-          },
-          {
-            name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
-          },
-          {
-            name: "Shelf Life",
-            content: "12 months",
-          },
-          {
-            name: "Coating System",
-            content: "Single Coat",
-          },
-          {
-            name: "Storage",
-            content:
-              "Store in a cool dry place. Do not use or store in an extreme temperature.",
+            name: "Properties",
+            content: `<ul>
+                      <liTreatment for walls</li>
+                      <li>Kills algae and fungi attack on walls</li>
+                      <li>Environmental friendly</li>
+                      <li>Easy to use</li>
+                      </ul>`,
           },
         ],
       },
@@ -617,17 +588,18 @@ export default createStore({
       {
         id: "15",
         name: "ExpateX Wall Stabilizer Paint",
-        thumbnail: "paint-10.png",
-        full: "full-10.png",
+        thumbnail: "paint-07.png",
+        full: "full-11.png",
         desc: "Specially formulated to firm up highly porous walls.",
         info: [
           {
             name: "Properties",
             content: `<ul>
-                        <li>Treatment for walls</li>
-                        <li>Kills algae and fungi attack on walls</li>
-                        <li>Environmental friendly</li>
-                        <li>Easy to use</li>
+                        <li>Beautiful designs</li>
+                        <li>Wipeable and very durable.</li>
+                        <li>Water resistant.</li>
+                        <li>Suitable cover up for defective areas.</li>
+                        <li>Easy to install.</li>
                       </ul>`,
           },
         ],

@@ -73,11 +73,11 @@ export default {
       },
       cards: [
         {
-          name: "Arc. Deji Zubair",
-          title: "Architect",
+          name: "Odeneye Kolade MNIOB",
+          title: "Professional Builder",
           content:
-            "I'm quite delighted with how Expatex Smart paint has given our home a new lease on life. I'm overjoyed because I received good value for my money. I have no reservations in recommending Expatex Smart Paint to our family and friends.",
-          src: "avatar.png",
+            "I recommend Expatex paint over and over. Quality, coverage and finish is excellent. My client was skeptical of an indigenous brand in the beginning, but after using Expatex, she was so excited that she began to recommend to others.",
+          src: "avatar-01.png",
         },
         {
           name: "Arc. Deji Zubair",
@@ -128,6 +128,8 @@ export default {
         width: 58px;
         height: 58px;
         margin-right: 1rem;
+        border-radius: 50%;
+        object-fit: cover;
       }
       .role {
         @include flex(flex, flex-start, flex-start, column);

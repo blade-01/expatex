@@ -38,16 +38,16 @@ export default {
     return {
       images: [
         {
+          src: "img-10.jpg",
+        },
+        {
+          src: "img-03.jpg",
+        },
+        {
+          src: "img-05.jpg",
+        },
+        {
           src: "rec-01.jpg",
-        },
-        {
-          src: "rec-02.jpg",
-        },
-        {
-          src: "rec-08.jpg",
-        },
-        {
-          src: "rec-04.jpg",
         },
       ],
     };

@@ -343,7 +343,7 @@ export default {
     margin: 4rem 0 2rem;
     width: 244px;
     height: 254px;
-    background: linear-gradient(0deg, #c02e2e, #c02e2e);
+    background: linear-gradient(0deg, #de8a7c, #de8a7c);
     border-radius: 60px 0px 60px 60px;
     @include flex(flex, space-between, flex-start, column);
     padding: 3rem;
@@ -352,6 +352,11 @@ export default {
     }
     span {
       @include font(80px, 600, 48px, $white);
+      cursor: pointer;
+      transition: transform ease 0.5s;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 

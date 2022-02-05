@@ -122,6 +122,10 @@ export default {
         @include flex(flex, flex-start, center, row);
         a {
           padding-right: 0.8rem;
+          transition: ease all 0.5s;
+          &:hover {
+            color: $pri-btn;
+          }
         }
       }
     }

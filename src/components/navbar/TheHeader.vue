@@ -71,6 +71,10 @@ export default {
           name: "contact-us",
           title: "Contact Us",
         },
+        {
+          name: "paint-collection",
+          title: "Paint Collection",
+        },
       ],
     };
   },

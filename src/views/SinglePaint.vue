@@ -59,10 +59,7 @@
             >
           </div>
           <div class="paint-expatex">
-            <p>
-              ExpateX paint is your best paint for interior and Exterior
-              finishes.
-            </p>
+            <p>Finest quality, longer lasting finish</p>
           </div>
         </div>
       </transition>

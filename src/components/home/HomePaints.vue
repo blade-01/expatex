@@ -29,7 +29,9 @@
         </div>
       </div>
       <div class="paints-more">
-        <button class="btn">See more from our paint collections</button>
+        <button class="btn" @click="$router.push({ name: 'paint-collection' })">
+          See more from our paint collections
+        </button>
       </div>
     </div>
   </div>

@@ -3,29 +3,15 @@
   <div class="color-guide">
     <div class="container">
       <div class="color-guide-content routes">
-        <div class="colors">
-          <div
-            class="color-wrap"
-            v-for="(select, index) in selectors"
-            :key="index"
-          >
-            <div
-              :class="`color color-${index}`"
-              :style="{ backgroundColor: select.color }"
-              @click="addAfterColor(select.color)"
-            >
-              <div class="after" v-show="select.active"></div>
-            </div>
-          </div>
-        </div>
         <div class="color-tabs">
-          <div
-            class="color-tab"
-            v-for="(i, index) in 64"
-            :key="index"
-            :class="`color-${index}`"
-            @click="activateColor(index)"
-          ></div>
+          <div class="color-tab" v-for="(color, index) in colors" :key="index">
+            <div
+              class="color"
+              :class="{ 'active-color': color.active }"
+              :style="{ backgroundColor: color.code }"
+            ></div>
+            <p>{{ color.name }}</p>
+          </div>
         </div>
       </div>
       <div class="expatex-wrap">
@@ -39,9 +25,7 @@
         </div>
       </div>
       <div class="expatex">
-        <p>
-          ExpateX paint is your best paint for interior and Exterior finishes.
-        </p>
+        <p>Finest quality, longer lasting finish</p>
       </div>
     </div>
   </div>
@@ -60,92 +44,342 @@ export default {
   },
   data() {
     return {
-      selectors: [
+      colors: [
         {
-          color: "#FF0000",
+          code: "#F5F3E4",
+          name: "Aspen Whisper",
           active: true,
         },
         {
-          color: "#0000FF",
+          code: "#F3EFDB",
+          name: "Icy Wind",
           active: false,
         },
         {
-          color: "#0EF385",
+          code: "#D1A678",
+          name: "Sienna",
           active: false,
         },
         {
-          color: "#FFFF00",
+          code: "#688399",
+          name: "Solent Blue",
           active: false,
         },
         {
-          color: "#FFA500",
+          code: "#EBC9A2",
+          name: "Peach",
           active: false,
         },
         {
-          color: "#C4C4C4",
+          code: "#9AB174",
+          name: "Leaf Green",
+          active: true,
+        },
+        {
+          code: "#E5CFC1",
+          name: "Rose Beige",
+          active: false,
+        },
+        {
+          code: "#F4CF83",
+          name: "Barley",
+          active: false,
+        },
+        {
+          code: "#F0DFC4",
+          name: "Magnolia",
+          active: false,
+        },
+        {
+          code: "#F2E5CB",
+          name: "Off white",
+          active: false,
+        },
+        {
+          code: "#CAB596",
+          name: "Midstone",
+          active: false,
+        },
+        {
+          code: "#DE8A7C",
+          name: "Pale Vermilion",
+          active: false,
+        },
+        {
+          code: "#E3EBCC",
+          name: "Peppermint",
+          active: false,
+        },
+        {
+          code: "#CE505C",
+          name: "Cinnabar",
+          active: false,
+        },
+        {
+          code: "#CED0DB",
+          name: "Lilac",
+          active: false,
+        },
+        {
+          code: "#E79E8A",
+          name: "Rose",
+          active: false,
+        },
+        {
+          code: "#EBD7BB",
+          name: "Light Cream",
+          active: false,
+        },
+        {
+          code: "#F3F1DA",
+          name: "Lime Spary",
+          active: false,
+        },
+        {
+          code: "#DFDDCF",
+          name: "Silver Lining",
+          active: false,
+        },
+        {
+          code: "#98674D",
+          name: "Rich Brown",
+          active: false,
+        },
+        {
+          code: "#D4DEE0",
+          name: "Harmony",
+          active: false,
+        },
+        {
+          code: "#A65058",
+          name: "Etruscan Red",
+          active: false,
+        },
+        {
+          code: "#F0EDDE",
+          name: "Mellow Tint",
+          active: false,
+        },
+        {
+          code: "#E7C894",
+          name: "Rich Cream",
+          active: false,
+        },
+        {
+          code: "#E7C183",
+          name: "Cream 30-40",
+          active: false,
+        },
+        {
+          code: "#DDD3C7",
+          name: "Light Taupe",
+          active: false,
+        },
+        {
+          code: "#D3B28F",
+          name: "Hazel Brown",
+          active: false,
+        },
+        {
+          code: "#78706A",
+          name: "Dark Mushroom",
+          active: false,
+        },
+        {
+          code: "#CDCDA0",
+          name: "Spray Green",
+          active: false,
+        },
+        {
+          code: "#C0DECE",
+          name: "Light Blue",
+          active: false,
+        },
+        {
+          code: "#9B906B",
+          name: "Lovat Green",
+          active: false,
+        },
+        {
+          code: "#A73D47",
+          name: "Reef Red",
+          active: false,
+        },
+        {
+          code: "#BFBFBF",
+          name: "Silver Grey",
+          active: false,
+        },
+        {
+          code: "#C1BEB8",
+          name: "Pale Grey",
+          active: false,
+        },
+        {
+          code: "#9C8D79",
+          name: "Olive Drab",
+          active: false,
+        },
+        {
+          code: "#DB7C54",
+          name: "Minium",
+          active: false,
+        },
+        {
+          code: "#3F478E",
+          name: "Expatex Blue",
+          active: false,
+        },
+        {
+          code: "#F4F0CB",
+          name: "Soft Yellow",
+          active: false,
+        },
+        {
+          code: "#686A7E",
+          name: "Dark Gray",
+          active: false,
+        },
+        {
+          code: "#3D634C",
+          name: "Coke Red",
+          active: false,
+        },
+        {
+          code: "#E5CFC1",
+          name: "Symphony",
+          active: false,
+        },
+        {
+          code: "#DC665D",
+          name: "Lekki Red",
+          active: false,
+        },
+        {
+          code: "#D3A55A",
+          name: "Orpiment",
+          active: false,
+        },
+        {
+          code: "#4FABCA",
+          name: "Lagoon Blue",
+          active: false,
+        },
+        {
+          code: "#F4B439",
+          name: "Golden Yellow",
+          active: false,
+        },
+        {
+          code: "#3B5799",
+          name: "American Blue",
+          active: false,
+        },
+        {
+          code: "#D6B288",
+          name: "Calabash",
+          active: false,
+        },
+        {
+          code: "#A0897D",
+          name: "Coconut",
+          active: false,
+        },
+        {
+          code: "#B79E90",
+          name: "Sierra",
+          active: false,
+        },
+        {
+          code: "#DDAC9A",
+          name: "Dusky Pink",
+          active: false,
+        },
+        {
+          code: "#007DBE",
+          name: "Brilliant Blue",
+          active: false,
+        },
+        {
+          code: "#DC9972",
+          name: "Bamboo",
+          active: false,
+        },
+        {
+          code: "#E0CDAD",
+          name: "Beige",
+          active: false,
+        },
+        {
+          code: "#63605E",
+          name: "Bitter Chocolate",
+          active: false,
+        },
+        {
+          code: "#E3ECDF",
+          name: "Maintain Air",
+          active: false,
+        },
+        {
+          code: "#F8F3D3",
+          name: "Warm Sun",
+          active: false,
+        },
+        {
+          code: "#E8A6AB",
+          name: "Strawberry",
+          active: false,
+        },
+        {
+          code: "#CA7870",
+          name: "Russet",
           active: false,
         },
       ],
-      after: "#FF0000",
     };
   },
-  methods: {
-    addAfterColor(color) {
-      this.selectors.forEach((select) => {
-        if (select.color === color && select.active === false) {
-          this.after = color;
-          select.active = true;
-        } else {
-          select.active = false;
-        }
-      });
-    },
-    activateColor(id) {
-      const colorId = document.querySelector(`.color-${id}`);
-      colorId.classList.toggle("active-color");
-    },
-  },
+  methods: {},
 };
 </script>
 <style lang="scss" scoped>
 @import "@/scss/style.scss";
 .color-guide {
   padding: 3rem 0;
-}
-.colors {
-  @include flex(flex, center, center, row);
-  .color {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    overflow: visible;
-  }
-  .color-wrap {
-    margin-bottom: 1rem;
-    .after {
-      position: absolute;
-      bottom: -30px;
-      right: 0px;
-      border: 15px solid transparent;
-      border-top-color: v-bind(after);
-    }
+  &-content {
+    margin-bottom: 7rem;
   }
 }
 .color-tabs {
   margin: 1rem 0;
   .color-tab {
+    margin-bottom: 1rem;
+  }
+  .color {
     width: 100%;
     height: 60px;
-    margin-bottom: 1rem;
-    background: v-bind(after);
-    opacity: 0.2;
+    margin-bottom: 0.5rem;
+    position: relative;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 24px 48px rgba(196, 196, 196, 0.6);
+    }
+  }
+  p {
+    @include font(10px, 500, 15px, $pri-color);
   }
 }
-
-.active-color.color-tab {
-  opacity: 1 !important;
+.active-color.color::after {
+  position: absolute;
+  content: "\2713";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  @include flex(flex, center, center, row);
+  @include font(30px, 500, 15px, $white);
+  z-index: 10;
 }
-
 .expatex-wrap {
   margin: 3rem 0;
   .get-color {
@@ -183,35 +417,12 @@ export default {
 }
 
 @media screen and (min-width: 700px) {
-  .color-guide {
-    &-content {
-      @include grid(grid, 2, 1fr, 1rem, 1rem);
-      grid-template-columns: 1fr 5fr;
-    }
-  }
-  .colors {
-    @include flex(flex, flex-start, flex-start, column);
-    .color {
-      width: 60px;
-      height: 120px;
-      position: relative;
-      overflow: visible;
-    }
-    .color-wrap {
-      margin-bottom: 1rem;
-      .after {
-        position: absolute;
-        top: 0px;
-        right: -20px;
-        border: 20px solid transparent;
-        border-top-color: v-bind(after);
-      }
-    }
-  }
   .color-tabs {
     margin: 0;
+    .color-tab {
+      margin: 0;
+    }
     @include grid(grid, 8, 1fr, 1rem, 1rem);
-    align-self: start;
   }
   .expatex-wrap {
     margin: 5rem 0;
@@ -230,22 +441,10 @@ export default {
 }
 
 @media screen and (min-width: 1000px) {
-  .color-guide {
-    &-content {
-      @include grid(grid, 2, 1fr, 1rem, 1rem);
-      grid-template-columns: 1fr 5fr;
-    }
-  }
-  .colors {
-    .color {
-      width: 60px;
-      height: 120px;
-    }
-  }
   .color-tabs {
-    .color-tab {
-      width: 70px;
-      height: 70px;
+    .color {
+      width: 100px;
+      height: 100px;
     }
   }
   .expatex {

@@ -26,7 +26,7 @@
             <a
               v-for="social in socials"
               :key="social"
-              href="#"
+              :href="social.href"
               target="_blank"
               rel="noopener noreferrer"
               ><span :class="social.icon"></span
@@ -59,7 +59,7 @@ export default {
       ],
       expatex: [
         {
-          name: "gallery",
+          name: "paint-collection",
           title: "Products",
         },
         {
@@ -75,14 +75,22 @@ export default {
         {
           name: "facebook",
           icon: "mdi mdi-facebook",
+          href: "https://web.facebook.com/expatexpaint",
         },
         {
           name: "twitter",
           icon: "mdi mdi-twitter",
+          href: "https://twitter.com/expatexpaints?s=20",
         },
         {
           name: "instagram",
           icon: "mdi mdi-instagram",
+          href: "https://www.instagram.com/expatexpaints/",
+        },
+        {
+          name: "instagram",
+          icon: "mdi mdi-whatsapp",
+          href: "https://api.whatsapp.com/send?phone=2348167142625&app=facebook&entry_point=page_cta&fbclid=IwAR32dXY1KXwetzlFA9RY8mVtyxHTL3VhdFEQ3fJi2E2fF-k8TVyr72rspuY",
         },
       ],
     };

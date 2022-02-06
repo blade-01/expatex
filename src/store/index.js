@@ -34,16 +34,16 @@ export default createStore({
               "Available in ExpateX colour guide and other standard colour.",
           },
           {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            name: "Application",
+            content: "Brush or Medium roller",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres, 20 Litres",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "7-8m1/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
@@ -55,7 +55,7 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content: "Maximum two coats",
           },
           {
             name: "Storage",
@@ -79,6 +79,10 @@ export default createStore({
             name: "Colours",
             content:
               "Available in ExpateX colour guide and other standard colour.",
+          },
+          {
+            name: "Application",
+            content: "Patterned roller. Stir well before use",
           },
           {
             name: "Dry Film Properties",
@@ -120,7 +124,7 @@ export default createStore({
         info: [
           {
             name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            content: "For Interior Substrates Only.",
           },
           {
             name: "Colours",
@@ -129,15 +133,15 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth and high sheen finish.",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres, 20 Litres",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "14-15m2/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
@@ -149,7 +153,12 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content:
+              "Maximum two coats. Ensure the first coat touch dry (set) before applying second coat",
+          },
+          {
+            name: "Application",
+            content: "Brush or Medium roller. Stir well before use",
           },
           {
             name: "Storage",
@@ -176,7 +185,7 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth Textured and Matt Finish.",
           },
           {
             name: "Packaging",
@@ -184,11 +193,15 @@ export default createStore({
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "5-6m2/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
             content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
+          },
+          {
+            name: "Application",
+            content: "Brush or Medium roller. Stir well before use",
           },
           {
             name: "Shelf Life",
@@ -196,7 +209,8 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content:
+              "Single Coats. Ensure the first coat touch dry (set) before applying second coat",
           },
           {
             name: "Storage",
@@ -214,7 +228,8 @@ export default createStore({
         info: [
           {
             name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            content:
+              "Beautification of metals and interior and exterior walls.",
           },
           {
             name: "Colours",
@@ -223,27 +238,32 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth and Sheen Finish.",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres",
+          },
+          {
+            name: "Thinners",
+            content: "Reduction and tools cleaning: Kerosene or White Spirit",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "14 to 15m2/l at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
+            content:
+              "Touch Dry in 30 minutes at 28 degree-celsius and Hard Dry in 24 hours",
           },
           {
             name: "Shelf Life",
             content: "12 months",
           },
           {
-            name: "Coating System",
-            content: "Single Coat",
+            name: "Application",
+            content: "Brush or Spray. Stir well before use",
           },
           {
             name: "Storage",
@@ -260,42 +280,45 @@ export default createStore({
         desc: "A high blend of alkyd resin and chlorinated rubber based quick ",
         info: [
           {
-            name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            name: "Properties",
+            content: `<ul>
+                      <li>This is a top quality finish consisting
+                      of a high blend of alkyd resin and
+                      chlorinated rubber based quick drying
+                      paint.</li>
+                      <li>It is mostly best used on asphalts
+                      and concrete roads majorly</li>
+                      <li>Its usage can not be limited to roads but also airport runways, motor
+                      garages, parks etc</li>
+                      </ul>`,
           },
           {
-            name: "Colours",
-            content:
-              "Available in ExpateX colour guide and other standard colour.",
+            name: "Colour Range",
+            content: "White, Black, Yellow, Green & Red",
           },
           {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            name: "Pack Size",
+            content: "4 Litres gallon and 20 or 200 litres drum",
           },
           {
-            name: "Packaging",
+            name: "Theoretical Coverage",
             content: "20 Litres",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "4M2 per litre @ 1 coat",
           },
           {
             name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
+            content: "10mins @ 28 degree C",
+          },
+          {
+            name: "Application Method",
+            content: "Spray and Brush",
           },
           {
             name: "Shelf Life",
             content: "12 months",
-          },
-          {
-            name: "Coating System",
-            content: "Single Coat",
-          },
-          {
-            name: "Storage",
-            content:
-              "Store in a cool dry place. Do not use or store in an extreme temperature.",
           },
         ],
       },
@@ -354,42 +377,14 @@ export default createStore({
         desc: "Attaches naturally to the surface. Water and Fire resistant, Long",
         info: [
           {
-            name: "Usage",
-            content: "For Interior and Exterior Substrates.",
-          },
-          {
-            name: "Colours",
-            content:
-              "Available in ExpateX colour guide and other standard colour.",
-          },
-          {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
-          },
-          {
-            name: "Packaging",
-            content: "20 Litres",
-          },
-          {
-            name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
-          },
-          {
-            name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
-          },
-          {
-            name: "Shelf Life",
-            content: "12 months",
-          },
-          {
-            name: "Coating System",
-            content: "Single Coat",
-          },
-          {
-            name: "Storage",
-            content:
-              "Store in a cool dry place. Do not use or store in an extreme temperature.",
+            name: "Properties",
+            content: `<ul>
+                        <li>Attaches naturally to the surface</li>
+                        <li>Water and Fire resistant</li>
+                        <li>Long Lasting</li>
+                        <li>Comes in different beautiful colours</li>
+                        <li>Gloss based</li>          <li>Very effective in water logged area</li>
+                      </ul>`,
           },
         ],
       },
@@ -425,6 +420,10 @@ export default createStore({
             name: "Colours",
             content:
               "Available in ExpateX colour guide and other standard colour.",
+          },
+          {
+            name: "Application",
+            content: "Patterned roller. Stir well before use",
           },
           {
             name: "Dry Film Properties",
@@ -466,7 +465,7 @@ export default createStore({
         info: [
           {
             name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            content: "For Interior Substrates Only.",
           },
           {
             name: "Colours",
@@ -475,15 +474,15 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth and high sheen finish.",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres, 20 Litres",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "14-15m2/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
@@ -495,7 +494,12 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content:
+              "Maximum two coats. Ensure the first coat touch dry (set) before applying second coat",
+          },
+          {
+            name: "Application",
+            content: "Brush or Medium roller. Stir well before use",
           },
           {
             name: "Storage",
@@ -514,7 +518,7 @@ export default createStore({
           {
             name: "Properties",
             content: `<ul>
-                      <liTreatment for walls</li>
+                      <li>Treatment for walls</li>
                       <li>Kills algae and fungi attack on walls</li>
                       <li>Environmental friendly</li>
                       <li>Easy to use</li>
@@ -531,7 +535,8 @@ export default createStore({
         info: [
           {
             name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            content:
+              "Beautification of metals and interior and exterior walls.",
           },
           {
             name: "Colours",
@@ -540,27 +545,32 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth and Sheen Finish.",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres",
+          },
+          {
+            name: "Thinners",
+            content: "Reduction and tools cleaning: Kerosene or White Spirit",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "14 to 15m2/l at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
+            content:
+              "Touch Dry in 30 minutes at 28 degree-celsius and Hard Dry in 24 hours",
           },
           {
             name: "Shelf Life",
             content: "12 months",
           },
           {
-            name: "Coating System",
-            content: "Single Coat",
+            name: "Application",
+            content: "Brush or Spray. Stir well before use",
           },
           {
             name: "Storage",
@@ -612,42 +622,14 @@ export default createStore({
         desc: "Attaches naturally to the surface. Water and Fire resistant, Long",
         info: [
           {
-            name: "Usage",
-            content: "For Interior and Exterior Substrates.",
-          },
-          {
-            name: "Colours",
-            content:
-              "Available in ExpateX colour guide and other standard colour.",
-          },
-          {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
-          },
-          {
-            name: "Packaging",
-            content: "20 Litres",
-          },
-          {
-            name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
-          },
-          {
-            name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
-          },
-          {
-            name: "Shelf Life",
-            content: "12 months",
-          },
-          {
-            name: "Coating System",
-            content: "Single Coat",
-          },
-          {
-            name: "Storage",
-            content:
-              "Store in a cool dry place. Do not use or store in an extreme temperature.",
+            name: "Properties",
+            content: `<ul>
+                        <li>Attaches naturally to the surface</li>
+                        <li>Water and Fire resistant</li>
+                        <li>Long Lasting</li>
+                        <li>Comes in different beautiful colours</li>
+                        <li>Gloss based</li>          <li>Very effective in water logged area</li>
+                      </ul>`,
           },
         ],
       },
@@ -800,7 +782,7 @@ export default createStore({
       },
       {
         id: "20",
-        name: "ExpateX Auto Flex Primer Gray",
+        name: "ExpateX Auto Flex Primer Grey",
         thumbnail: "paint-00.png",
         full: "full-00.png",
         desc: "Autoflex Primer Grey is a general purpose primer for automotive painting...",
@@ -1025,16 +1007,16 @@ export default createStore({
               "Available in ExpateX colour guide and other standard colour.",
           },
           {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            name: "Application",
+            content: "Brush or Medium roller",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres, 20 Litres",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "7-8m1/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
@@ -1046,7 +1028,7 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content: "Maximum two coats",
           },
           {
             name: "Storage",
@@ -1070,6 +1052,10 @@ export default createStore({
             name: "Colours",
             content:
               "Available in ExpateX colour guide and other standard colour.",
+          },
+          {
+            name: "Application",
+            content: "Patterned roller. Stir well before use",
           },
           {
             name: "Dry Film Properties",
@@ -1111,7 +1097,7 @@ export default createStore({
         info: [
           {
             name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            content: "For Interior Substrates Only.",
           },
           {
             name: "Colours",
@@ -1120,15 +1106,15 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth and high sheen finish.",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres, 20 Litres",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "14-15m2/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
@@ -1140,7 +1126,12 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content:
+              "Maximum two coats. Ensure the first coat touch dry (set) before applying second coat",
+          },
+          {
+            name: "Application",
+            content: "Brush or Medium roller. Stir well before use",
           },
           {
             name: "Storage",
@@ -1167,7 +1158,7 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth Textured and Matt Finish.",
           },
           {
             name: "Packaging",
@@ -1175,11 +1166,15 @@ export default createStore({
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "5-6m2/Litre at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
             content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
+          },
+          {
+            name: "Application",
+            content: "Brush or Medium roller. Stir well before use",
           },
           {
             name: "Shelf Life",
@@ -1187,7 +1182,8 @@ export default createStore({
           },
           {
             name: "Coating System",
-            content: "Single Coat",
+            content:
+              "Single Coats. Ensure the first coat touch dry (set) before applying second coat",
           },
           {
             name: "Storage",
@@ -1205,7 +1201,8 @@ export default createStore({
         info: [
           {
             name: "Usage",
-            content: "For Interior and Exterior Substrates.",
+            content:
+              "Beautification of metals and interior and exterior walls.",
           },
           {
             name: "Colours",
@@ -1214,27 +1211,32 @@ export default createStore({
           },
           {
             name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
+            content: "Smooth and Sheen Finish.",
           },
           {
             name: "Packaging",
-            content: "20 Litres",
+            content: "4 Litres",
+          },
+          {
+            name: "Thinners",
+            content: "Reduction and tools cleaning: Kerosene or White Spirit",
           },
           {
             name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
+            content: "14 to 15m2/l at 2 coats depending on the substrate",
           },
           {
             name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
+            content:
+              "Touch Dry in 30 minutes at 28 degree-celsius and Hard Dry in 24 hours",
           },
           {
             name: "Shelf Life",
             content: "12 months",
           },
           {
-            name: "Coating System",
-            content: "Single Coat",
+            name: "Application",
+            content: "Brush or Spray. Stir well before use",
           },
           {
             name: "Storage",
@@ -1287,42 +1289,14 @@ export default createStore({
         desc: "Attaches naturally to the surface. Water and Fire resistant, Long",
         info: [
           {
-            name: "Usage",
-            content: "For Interior and Exterior Substrates.",
-          },
-          {
-            name: "Colours",
-            content:
-              "Available in ExpateX colour guide and other standard colour.",
-          },
-          {
-            name: "Dry Film Properties",
-            content: "Patterned Textured Finish.",
-          },
-          {
-            name: "Packaging",
-            content: "20 Litres",
-          },
-          {
-            name: "Practical Spreading Rate",
-            content: "1 to 1.5m/l depending on the substrate",
-          },
-          {
-            name: "Drying Time",
-            content: "Touch Dry in 1 to 2 hours, Hard Dry in 24 hours",
-          },
-          {
-            name: "Shelf Life",
-            content: "12 months",
-          },
-          {
-            name: "Coating System",
-            content: "Single Coat",
-          },
-          {
-            name: "Storage",
-            content:
-              "Store in a cool dry place. Do not use or store in an extreme temperature.",
+            name: "Properties",
+            content: `<ul>
+                        <li>Attaches naturally to the surface</li>
+                        <li>Water and Fire resistant</li>
+                        <li>Long Lasting</li>
+                        <li>Comes in different beautiful colours</li>
+                        <li>Gloss based</li>          <li>Very effective in water logged area</li>
+                      </ul>`,
           },
         ],
       },

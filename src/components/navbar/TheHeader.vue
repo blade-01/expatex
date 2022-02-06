@@ -65,7 +65,7 @@ export default {
         },
         {
           name: "color-guide",
-          title: "Color Guide",
+          title: "Colour Guide",
         },
         {
           name: "contact-us",

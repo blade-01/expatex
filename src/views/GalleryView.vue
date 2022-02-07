@@ -101,22 +101,22 @@ export default {
       ],
       exteriors: [
         {
-          src: "img-06.jpg",
+          src: "ext-01.jpg",
         },
         {
-          src: "rec-17.jpg",
+          src: "rec-07.jpg",
         },
         {
-          src: "img-07.jpg",
+          src: "ext-06.jpg",
         },
         {
-          src: "img-08.jpg",
+          src: "ext-03.jpg",
         },
         {
           src: "rec-02.jpg",
         },
         {
-          src: "img-05.jpg",
+          src: "ext-05.jpg",
         },
         {
           src: "rec-17.jpg",

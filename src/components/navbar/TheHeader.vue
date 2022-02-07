@@ -146,7 +146,7 @@ img {
   top: -100%;
   left: 0;
   width: 100%;
-  height: 300px;
+  height: 400px;
   background: $sec-btn;
   transition: all ease 0.25s;
   & ul {

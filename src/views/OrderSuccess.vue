@@ -3,7 +3,7 @@
   <div class="order routes">
     <div class="container">
       <img src="@/assets/img/check.png" alt="check" />
-      <p>You've sucessfully placed your order</p>
+      <p>{{ message }}</p>
       <router-link :to="{ name: 'home' }" class="pri-btn"
         >Go Back to Home</router-link
       >
@@ -17,9 +17,19 @@ import TheHeader from "@/components/navbar/TheHeader.vue";
 import TheFooter from "@/components/navbar/TheFooter.vue";
 export default {
   name: "OrderSuccess",
+  data() {
+    return {
+      message: "You've successfully placed your order",
+    };
+  },
   components: {
     TheHeader,
     TheFooter,
+  },
+  mounted() {
+    if (this.$route.name === "successful-mail") {
+      this.message = "Your message has been successfully delivered.";
+    }
   },
 };
 </script>

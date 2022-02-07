@@ -46,6 +46,12 @@ const routes = [
       import(/* webpackChunkName: "successful" */ "../views/OrderSuccess.vue"),
   },
   {
+    path: "/successful",
+    name: "successful-mail",
+    component: () =>
+      import(/* webpackChunkName: "successful" */ "../views/OrderSuccess.vue"),
+  },
+  {
     path: "/:CatchAll(.*)",
     name: "not-found",
     component: () =>

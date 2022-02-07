@@ -28,7 +28,7 @@ export default {
         },
         {
           content:
-            "Our paints are affordable; do not crack upon drying and meet all the known safety requirements. So, come to Expatex Paints today and join the ever-increasing number of customers who can testify to the quality of our products and services. Try us today and experience quality paints like never before.",
+            "The unmatched quality of our products, our passion for technological development and innovation, make Expatex Paints one of the leading paint manufacturers in Nigeria. For your creative adventure, check our Product collection and colour guide.",
         },
       ],
     };

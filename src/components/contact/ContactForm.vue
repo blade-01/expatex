@@ -1,12 +1,17 @@
 <template>
-  <form class="contact-form" @submit.prevent="sendMessage">
+  <form
+    class="contact-form"
+    @submit.prevent="sendMessage"
+    action="https://getform.io/f/5c2aac6c-f6be-4670-b671-3ff3549fe1a0"
+    method="POST"
+  >
     <div class="flex-field">
       <div class="input-field">
-        <label for="name">Full Name</label>
+        <label for="fullName">Full Name</label>
         <input
           type="text"
-          id="name"
-          name="name"
+          id="fullName"
+          name="fullName"
           placeholder="Jane Doe"
           v-model="fullName"
           @blur="v$.fullName.$touch()"
@@ -37,7 +42,7 @@
       </div>
     </div>
     <div class="input-field">
-      <label for="name">Message</label>
+      <label for="message">Message</label>
       <textarea
         id="message"
         name="message"
@@ -60,6 +65,7 @@
 </template>
 <script>
 import useVuelidate from "@vuelidate/core";
+import axios from "axios";
 import { required, email } from "@vuelidate/validators";
 export default {
   name: "ContactForm",
@@ -85,6 +91,14 @@ export default {
         window.scrollTo({
           top: 0,
         });
+      } else {
+        axios
+          .post("https://getform.io/f/5c2aac6c-f6be-4670-b671-3ff3549fe1a0", {
+            message: this.message,
+            email: this.email,
+            fullName: this.fullName,
+          })
+          .then(() => this.$router.push({ name: "successful-mail" }));
       }
     },
   },

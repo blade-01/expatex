@@ -19,7 +19,7 @@
           <li>Email</li>
           <li>Reach out to us via our email address</li>
           <li>
-            <a href="mailto:expatexpaint@gmail.com">expatexpaint@gmail.com</a>
+            <a href="mailto:info@expatexpaints.com">info@expatexpaints.com</a>
           </li>
         </ul>
       </div>

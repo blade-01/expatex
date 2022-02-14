@@ -4,9 +4,7 @@
       <div class="about-content">
         <h2>About ExpateX</h2>
         <ul>
-          <li v-for="li in lis" :key="li">
-            {{ li.content }}
-          </li>
+          <li v-for="li in lis" :key="li" v-html="li.content"></li>
         </ul>
       </div>
     </div>
@@ -19,16 +17,13 @@ export default {
     return {
       lis: [
         {
-          content:
-            "For many years, we have continued to consistently manufacture durable, tough, heat resistant, and fireproof paints, which also protect against toxic fumes. Our products are manufactured under strict and unique technical processes, to give you the best result every time.",
+          content: `For many years, we have continued to consistently manufacture durable, tough, heat resistant, and fireproof paints, which also protect against toxic fumes. Our products are manufactured under strict and unique technical processes, to give you the best result every time.`,
         },
         {
-          content:
-            "Our Expatex colour paint does not fade or change in color. Our team of experts are always ready and willing to guide you in making the best choice when it comes to our wide array of colors.",
+          content: `Our Expatex colour paint does not fade or change in color. Our team of experts are always ready and willing to guide you in making the best choice when it comes to our wide array of colors.`,
         },
         {
-          content:
-            "The unmatched quality of our products, our passion for technological development and innovation, make Expatex Paints one of the leading paint manufacturers in Nigeria. For your creative adventure, check our Product collection and colour guide.",
+          content: `The unmatched quality of our products, our passion for technological development and innovation, make Expatex Paints one of the leading paint manufacturers in Nigeria. For your creative adventure, check our <a href="/paint-collection" style="font-weight: bold">Product collection</a> and <a href="/color-guide" style="font-weight: bold">colour guide</a>.`,
         },
       ],
     };

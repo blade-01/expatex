@@ -6,7 +6,7 @@
           <h2>ExpateX Gallery</h2>
           <p>
             Browse through our recently executed projects to get a feel of the
-            colourful and fasinating work done.
+            colourful and fascinating work done.
           </p>
         </div>
         <div class="see-more">
